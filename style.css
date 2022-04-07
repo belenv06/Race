@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 100px;
+}
+
+h1 {
+  font-weight: 300;
+  color: #A8CC2E;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+/* Seccion de carrera con emogi */
+.emogi-table {
+  height: 220px;
+  width: 100%;
+}
+.emogi-table td.active {
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#emogi-player1 td.active {
+  background-image: url("images/Happy.svg");
+}
+
+#emogi-player2 td.active {
+  background-image: url("images/Laugh.svg");
+}
