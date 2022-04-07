@@ -2,7 +2,8 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  margin: 100px;
+  margin: 0px;
+  height: 100%;
 }
 
 h1 {
@@ -19,16 +20,30 @@ p {
   margin-top: 10px;
 }
 
-
-
+.head-body {
+  margin: 100px 100px 50px 100px; 
+  height: 25%;
+}
 
 
 
 
 
 /* Seccion de carrera con emogi */
+.container-race {
+  margin: 50px 0px;
+  border-top: 1px solid #A8CC2E;
+  border-bottom: 1px solid #A8CC2E;
+  padding: 50px 100px 50px 100px;
+  height: 75%;
+}
+
+
+table {
+  border-spacing: 0px;
+}
 .emogi-table {
-  height: 220px;
+  height: 200px;
   width: 100%;
 }
 .emogi-table td.active {
@@ -42,4 +57,120 @@ p {
 
 #emogi-player2 td.active {
   background-image: url("images/Laugh.svg");
+}
+
+.finished {
+  height: 100px;
+  width: 100px;
+  background-color: #A8CC2E;
+}
+
+
+
+/* Responsive */
+@media screen and (min-width: 1515px) and (max-width: 1920px){
+  h1 {
+    font-size: 62px;
+  }
+  p {
+    font-size: 28px;
+  }
+  .head-body {
+    margin: 200px 0px 20px 0px;
+  }
+
+  .container-race {
+    padding: 100px 200px 100px 200px;
+  }
+  .emogi-table {
+    height: 300px;
+  }
+}
+
+/* Macbook pro 14 */
+@media screen and (min-width: 1370px) and (max-width: 1512px){
+  h1 {
+    font-size: 55px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .head-body {
+    margin-top: 155px;
+  }
+
+  .container-race {
+    padding: 120px 180px 120px 180px;
+  }
+
+  table {
+    border-spacing: none;
+  }
+
+  .emogi-table {
+    height: 240px;
+  }
+} 
+
+@media screen and (min-width: 1290px) and (max-width: 1360px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .head-body {
+    margin: 110px 100px 40px 100px; 
+  }
+
+  .container-race {
+    padding: 80px 160px 80px 160px;
+  }
+}
+
+/* iMac */
+@media screen and (min-width: 970px) and (max-width: 1280px){
+  h1 {
+    font-size: 36px;
+  }
+  p {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  table {
+    border-spacing: none;
+  }
+  .head-body {
+    margin: 100px 100px 00px 100px; 
+  }
+  .container-race {
+    margin: 26px 0px;
+    padding: 70px 150px 35px 150px;
+  }
+  .finished {
+    width: 90px;
+  }
+}
+
+/* Pantalla de 960 x 540 */
+@media screen and (min-width: 800px) and (max-width: 960px){
+  h1 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 15px;
+  }
+
+  .head-body {
+    margin: 70px 100px 30px 100px; 
+  }
+
+  .finished {
+    height: 100px;
+    width: 80px;
+    background-color: #A8CC2E;
+  }
+
+  .container-race {
+    margin: 20px 0px;
+    padding: 50px 100px 20px 100px;
+  }
 }
