@@ -1,0 +1,153 @@
+.modal-winner {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  box-sizing: border-box;
+  padding: 100px;
+  width: 700px;
+  height: 500px;
+  border: 3px solid #A8CC2E;
+  border-radius: 20px;
+  margin: auto;
+  position: relative;
+  background-color: white;
+  top: 200px;
+  /* position: fixed; */
+}
+
+.hide-modal {
+  display: none;
+}
+
+
+.modal-winner img {
+  height: 150px;
+}
+
+.modal-winner h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+.modal-winner p {
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+
+.btn {
+  background-color: white;
+  box-sizing: border-box;
+  border: 1px solid #A8CC2E;
+  padding: 12px 0px;
+  width: 200px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: auto;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #A8CC2E;
+  color: white;
+}
+
+@media screen and (min-width: 1515px) and (max-width: 1920px) {
+  .modal-winner {
+    width: 900px;
+    height: 650px;
+    padding: 130px;
+    box-sizing: border-box;
+  }
+  .modal-winner img {
+    height: 200px;
+  }
+  .modal-winner h2 {
+    font-size: 35px;
+    margin-bottom: 5px;
+    margin-top: 35px;
+  }
+  .modal-winner p {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .btn {
+    padding: 18px 0px;
+    width: 240px;
+    font-size: 22px;
+
+  }
+}
+ /* mackbook pro 14 */
+@media screen and (min-width: 1370px) and (max-width: 1512px) {
+ .modal-winner {
+   width: 750px;
+   height: 500px;
+   top: 210px;
+ }
+}
+
+@media screen and (min-width: 1290px) and (max-width: 1360px) {
+  .modal-winner {
+    width: 750px;
+    height: 420px;
+    top: 200px;
+    border-radius: 10px;
+    padding: 70px;
+  }
+
+  .modal-winner img {
+    height: 130px;
+  }
+}
+
+@media screen and (min-width: 970px) and (max-width: 1280px) {
+  .modal-winner {
+    width: 700px;
+    height: 420px;
+    top: 180px;
+    padding: 65px;
+  }
+  .modal-winner img {
+    height: 135px;
+  }
+  .modal-winner h2 {
+    font-size: 24px;
+  }
+  .modal-winner p {
+    margin-bottom: 20px;
+  }
+  .btn {
+    width: 160px;
+    font-size: 15px;
+    padding: 10px 0px;
+  }
+}
+
+/* Pantalla de 960 x 540 */
+@media screen and (min-width: 800px) and (max-width: 960px) {
+  .modal-winner {
+    width: 600px;
+    height: 320px;
+    top: 120px;
+    padding: 65px;
+  }
+  .modal-winner img {
+    height: 100px;
+  }
+  .modal-winner h2 {
+    margin-top: 18px;
+    font-size: 20px;
+  }
+  .modal-winner p {
+    margin-bottom: 15px;
+  }
+  .btn {
+    width: 160px;
+    font-size: 15px;
+    padding: 10px 0px;
+  }
+}

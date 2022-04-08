@@ -9,44 +9,58 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div class="head-body">
-    <h1>EMOTIONS RACE</h1>
-    <p>Instructions:  Play with 2 letters,  first is “A” and second is “B”</p>
+  <div class="body">
+    <div class="head-body">
+      <h1>EMOTIONS RACE</h1>
+      <p>Instructions:  Play with 2 letters,  first is “A” and second is “B”</p>
+    </div>
+  
+    <!-- Carrera / Race-->
+    <div class="container-race">
+      <table class="emogi-table">
+        <tr id="emogi-player1">
+          <td class="active"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="finished"></td>
+        </tr>
+        <tr id="emogi-player2">
+          <td class="active"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="finished"></td>
+        </tr>
+      </table>
+    </div>
   </div>
 
-  <!-- Seccion donde inicia la carrera -->
-  <div class="container-race">
-    <table class="emogi-table">
-      <tr id="emogi-player1">
-        <td class="active"></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td class="finished"></td>
-      </tr>
-      <tr id="emogi-player2">
-        <td class="active"></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td class="finished"></td>
-      </tr>
-    </table>
+
+  <!-- Modal -->
+
+  <div class="modal-winner" id="modal-container">
+    <!-- <div> -->
+      <img src="./images/Happy.svg" alt="" id="emoji-winner">
+      <!-- <img src="./images/Laugh.svg" alt=""> -->
+      <h2>CONGRATULATIONS!!</h2>
+      <p>Your <span id="winner"> ddddd </span> win</p>
+      <div class="btn">Play Again</div>
+    <!-- </div> -->
   </div>
-    
 </body>
 </html>
